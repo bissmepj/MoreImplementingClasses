@@ -39,7 +39,7 @@ def main():
 
 
 # ----------------------------------------------------------------------
-# TODO: 2. Implement a class called   Baby   that has a constructor and
+# DONE: 2. Implement a class called   Baby   that has a constructor and
 #   two methods, as described below.  Your finished Baby class should
 #   cause the code above to display the expected output.  Hint: Your
 #   class will need instance variables that you must figure out.
@@ -114,7 +114,7 @@ class Baby(object):
         if self.hour >= 2:
             self.hour += 1
             print("Baby {} is CRYING uncontrollably!  Feed the Baby!".format(self.name))
-            return 
+            return
 
 
 
